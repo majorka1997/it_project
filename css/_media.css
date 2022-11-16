@@ -1,0 +1,32 @@
+/* madia screen */
+@media screen and (max-width: 768px) {
+    .main {
+        position: relative;
+    }
+
+    .right {
+        position: absolute;
+        width: 336px;
+        height: 292px;
+        right: 0%;
+        bottom: 107px;
+    }
+
+    .left {
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .main {
+        position: relative;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left {
+        z-index: 1;
+    }
+}

@@ -1,0 +1,103 @@
+.container__footer {
+    margin-top: 161px;
+}
+.section__footer {
+    background: url("/img/Rectangle\ 4.png");
+}
+.top {
+    display: flex;
+}
+.intersted {
+    width: 100%;
+    max-width: 494px;
+    margin-top: 89px;
+    margin-left: 113px;
+}
+.intint {
+    width: 100%;
+    max-width: 340px;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+}
+.about__int {
+    margin-top: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.tlk {
+    width: 100%;
+    max-width: 170px;
+    height: 54px;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    margin-top: 160px;
+    margin-left: 406px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 10px black;
+    transition: 1s;
+    border-color: #598ae6;
+}
+.tlk:hover {
+    background-position: right center;
+    box-shadow: 0 0 10px rgba(9, 128, 226, 0.808);
+}
+.vec {
+    margin-top: 92px;
+}
+.bot {
+    margin-top: 62px;
+}
+ol {
+    display: flex;
+}
+li {
+    color: white;
+}
+li:nth-child(1) {
+    width: 100%;
+    max-width: 250px;
+    height: 46px;
+    margin-left: 100px;
+    padding-left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;  
+}
+li:nth-child(2) {
+    width: 316px;
+    height: 25px;
+    margin-left: 60px;
+    padding-left: 20px;
+}
+li:nth-child(3) {
+    width: 316px;
+    height: 25px;
+    margin-left: 32px;
+    padding-left: 20px;
+}
+.all {
+   margin-top: 63px;
+   padding-bottom: 60px;
+   margin-left: 112px;
+   color: white;
+   opacity: 0.4;
+}

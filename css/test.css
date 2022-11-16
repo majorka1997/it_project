@@ -1,0 +1,17 @@
+.imgbottom {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1172px;
+  margin-top: 55px;
+  border: 2px solid black;
+  border-radius: 80%;
+}
+.imgbottom__item {
+  display: flex;
+  position: relative;
+  max-width: 554px;
+  margin-left: 11px;
+}
+.imgbottom__item:not(:first-child) {
+  margin-top: 17px;
+}/*# sourceMappingURL=test.css.map */
