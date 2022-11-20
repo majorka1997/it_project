@@ -9,6 +9,7 @@
     margin-top: 32px;
     top: 899px;
     left: 161px;
+    grid-gap: 30px;
 }
 
 .about__item {
@@ -24,9 +25,6 @@
     box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
 }
 
-.about__item:not(:last-child) {
-    margin-right: 31px;
-}
 
 .about__image {
     margin: 0 auto;
