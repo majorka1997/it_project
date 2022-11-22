@@ -15,7 +15,7 @@
     .left {
         z-index: 1;
     }
-}
+} 
 
 @media screen and (max-width: 376px) {
     .main {
@@ -29,7 +29,11 @@
     .left {
         z-index: 1;
     }
-
-
+    .aboutbot {
+        flex-wrap: wrap;
+    }
+    .aboutbot__item {
+        min-height: 255px;
+    }
 
 }
