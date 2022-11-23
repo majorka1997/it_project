@@ -15,6 +15,12 @@
     .left {
         z-index: 1;
     }
+    .footer__lists {
+        flex-direction: column;
+    }
+    .footer__list {
+        width: 100%;
+    }
 } 
 
 @media screen and (max-width: 376px) {
@@ -35,5 +41,18 @@
     .aboutbot__item {
         min-height: 255px;
     }
-
+    .footer__top {
+        flex-direction: column;
+    }
+    .footer__describtion {
+        
+        width: 100%;
+        text-align: center;
+        
+    }
+    .abouttop__text {
+        font-size: 15px;
+        padding: 10px;
+    }
+    
 }
